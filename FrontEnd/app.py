@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 def add_number_to_db(number):
-    requests.get(f'http://localhost:5001/add_num?num={number}')
+    requests.get(f'http://0.0.0.0:5001/add_num?num={number}')
     print(f'\nadding {number} to db\n')
 
 

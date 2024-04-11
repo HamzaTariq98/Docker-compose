@@ -15,7 +15,7 @@ def add_number_to_db(number):
 
 
 def call_database():
-    response = requests.get('http://localhost:5001/fetch_data')
+    response = requests.get('http://0.0.0.0:5001/fetch_data')
     return response.json()
 
 
